@@ -1,0 +1,61 @@
+{
+  "summary": {
+    "outcome": "Passed",
+    "testsRan": 2,
+    "passing": 2,
+    "failing": 0,
+    "skipped": 0,
+    "passRate": "100%",
+    "failRate": "0%",
+    "skipRate": "0%",
+    "testStartTime": "Wed Jun 15 2022 10:42:43 AM",
+    "testExecutionTimeInMs": 266,
+    "testTotalTimeInMs": 266,
+    "commandTimeInMs": 520,
+    "hostname": "https://sweeftdigital9-dev-ed.my.salesforce.com",
+    "orgId": "00D8b000002AE61EAG",
+    "username": "sandroqoiava7@hotmail.com",
+    "testRunId": "7078b000098BUYE",
+    "userId": "0058b00000GM5y9AAD"
+  },
+  "tests": [
+    {
+      "id": "07M8b000004NqgMEAS",
+      "queueItemId": "7098b000000OkhIAAS",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7078b000098BUYEAA4",
+      "methodName": "cloneQuoteWithOutQlisTest",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p8b000008Nki3AAC",
+        "name": "SF_LightningHelperTest",
+        "namespacePrefix": null,
+        "fullName": "SF_LightningHelperTest"
+      },
+      "runTime": 94,
+      "testTimestamp": "2022-06-15T06:42:47.000+0000",
+      "fullName": "SF_LightningHelperTest.cloneQuoteWithOutQlisTest"
+    },
+    {
+      "id": "07M8b000004NqgNEAS",
+      "queueItemId": "7098b000000OkhIAAS",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7078b000098BUYEAA4",
+      "methodName": "cloneQuoteWithtQlisTest",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p8b000008Nki3AAC",
+        "name": "SF_LightningHelperTest",
+        "namespacePrefix": null,
+        "fullName": "SF_LightningHelperTest"
+      },
+      "runTime": 172,
+      "testTimestamp": "2022-06-15T06:42:47.000+0000",
+      "fullName": "SF_LightningHelperTest.cloneQuoteWithtQlisTest"
+    }
+  ]
+}

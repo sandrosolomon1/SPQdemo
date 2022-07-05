@@ -1,0 +1,42 @@
+{
+  "summary": {
+    "outcome": "Passed",
+    "testsRan": 1,
+    "passing": 1,
+    "failing": 0,
+    "skipped": 0,
+    "passRate": "100%",
+    "failRate": "0%",
+    "skipRate": "0%",
+    "testStartTime": "Wed Jun 22 2022 5:28:41 PM",
+    "testExecutionTimeInMs": 1872,
+    "testTotalTimeInMs": 1872,
+    "commandTimeInMs": 764,
+    "hostname": "https://sweeftdigital9-dev-ed.my.salesforce.com",
+    "orgId": "00D8b000002AE61EAG",
+    "username": "sandroqoiava7@hotmail.com",
+    "testRunId": "7078b00009Avta6",
+    "userId": "0058b00000GM5y9AAD"
+  },
+  "tests": [
+    {
+      "id": "07M8b000004Nz71EAC",
+      "queueItemId": "7098b000000OlBhAAK",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7078b00009Avta6AAB",
+      "methodName": "createInvoiceTest",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p8b000008O5YdAAK",
+        "name": "SF_CreateInvoiceBatchTest",
+        "namespacePrefix": null,
+        "fullName": "SF_CreateInvoiceBatchTest"
+      },
+      "runTime": 1872,
+      "testTimestamp": "2022-06-22T13:28:42.000+0000",
+      "fullName": "SF_CreateInvoiceBatchTest.createInvoiceTest"
+    }
+  ]
+}

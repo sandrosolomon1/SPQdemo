@@ -1,0 +1,69 @@
+{
+  "summary": {
+    "outcome": "Failed",
+    "testsRan": 2,
+    "passing": 1,
+    "failing": 1,
+    "skipped": 0,
+    "passRate": "50%",
+    "failRate": "50%",
+    "skipRate": "0%",
+    "testStartTime": "Wed Jun 15 2022 10:41:14 AM",
+    "testExecutionTimeInMs": 157,
+    "testTotalTimeInMs": 157,
+    "commandTimeInMs": 543,
+    "hostname": "https://sweeftdigital9-dev-ed.my.salesforce.com",
+    "orgId": "00D8b000002AE61EAG",
+    "username": "sandroqoiava7@hotmail.com",
+    "testRunId": "7078b000098BUSf",
+    "userId": "0058b00000GM5y9AAD"
+  },
+  "tests": [
+    {
+      "id": "07M8b000004Nqg2EAC",
+      "queueItemId": "7098b000000OkhDAAS",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7078b000098BUSfAAO",
+      "methodName": "cloneQuoteWithOutQlisTest",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p8b000008Nki3AAC",
+        "name": "SF_LightningHelperTest",
+        "namespacePrefix": null,
+        "fullName": "SF_LightningHelperTest"
+      },
+      "runTime": 81,
+      "testTimestamp": "2022-06-15T06:41:16.000+0000",
+      "fullName": "SF_LightningHelperTest.cloneQuoteWithOutQlisTest"
+    },
+    {
+      "id": "07M8b000004Nqg3EAC",
+      "queueItemId": "7098b000000OkhDAAS",
+      "stackTrace": "Class.SF_LightningHelperTest.cloneQuoteWithtQlisTest: line 65, column 1",
+      "message": "System.QueryException: List has no rows for assignment to SObject",
+      "asyncApexJobId": "7078b000098BUSfAAO",
+      "methodName": "cloneQuoteWithtQlisTest",
+      "outcome": "Fail",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p8b000008Nki3AAC",
+        "name": "SF_LightningHelperTest",
+        "namespacePrefix": null,
+        "fullName": "SF_LightningHelperTest"
+      },
+      "runTime": 76,
+      "testTimestamp": "2022-06-15T06:41:16.000+0000",
+      "fullName": "SF_LightningHelperTest.cloneQuoteWithtQlisTest",
+      "diagnostic": {
+        "exceptionMessage": "System.QueryException: List has no rows for assignment to SObject",
+        "exceptionStackTrace": "Class.SF_LightningHelperTest.cloneQuoteWithtQlisTest: line 65, column 1",
+        "className": "SF_LightningHelperTest",
+        "compileProblem": "",
+        "lineNumber": 65,
+        "columnNumber": 1
+      }
+    }
+  ]
+}

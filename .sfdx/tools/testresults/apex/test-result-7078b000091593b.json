@@ -1,0 +1,69 @@
+{
+  "summary": {
+    "outcome": "Failed",
+    "testsRan": 2,
+    "passing": 1,
+    "failing": 1,
+    "skipped": 0,
+    "passRate": "50%",
+    "failRate": "50%",
+    "skipRate": "0%",
+    "testStartTime": "Tue May 31 2022 1:37:42 PM",
+    "testExecutionTimeInMs": 344,
+    "testTotalTimeInMs": 344,
+    "commandTimeInMs": 1023,
+    "hostname": "https://sweeftdigital9-dev-ed.my.salesforce.com",
+    "orgId": "00D8b000002AE61EAG",
+    "username": "sandroqoiava7@hotmail.com",
+    "testRunId": "7078b000091593b",
+    "userId": "0058b00000GM5y9AAD"
+  },
+  "tests": [
+    {
+      "id": "07M8b0000047DhLEAU",
+      "queueItemId": "7098b0000003riPAAQ",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7078b000091593bAAA",
+      "methodName": "validateQuotePrimarityTestCaseOne",
+      "outcome": "Pass",
+      "apexLogId": "07L8b00005A0rPdEAJ",
+      "apexClass": {
+        "id": "01p8b000004iaQsAAI",
+        "name": "SF_quoteTriggerTest",
+        "namespacePrefix": null,
+        "fullName": "SF_quoteTriggerTest"
+      },
+      "runTime": 206,
+      "testTimestamp": "2022-05-31T09:37:44.000+0000",
+      "fullName": "SF_quoteTriggerTest.validateQuotePrimarityTestCaseOne"
+    },
+    {
+      "id": "07M8b0000047DhMEAU",
+      "queueItemId": "7098b0000003riPAAQ",
+      "stackTrace": "Class.SF_quoteTriggerTest.validateQuotePrimarityTestCaseTwo: line 108, column 1",
+      "message": "System.AssertException: Assertion Failed: Expected: false, Actual: true",
+      "asyncApexJobId": "7078b000091593bAAA",
+      "methodName": "validateQuotePrimarityTestCaseTwo",
+      "outcome": "Fail",
+      "apexLogId": "07L8b00005A0rPdEAJ",
+      "apexClass": {
+        "id": "01p8b000004iaQsAAI",
+        "name": "SF_quoteTriggerTest",
+        "namespacePrefix": null,
+        "fullName": "SF_quoteTriggerTest"
+      },
+      "runTime": 138,
+      "testTimestamp": "2022-05-31T09:37:44.000+0000",
+      "fullName": "SF_quoteTriggerTest.validateQuotePrimarityTestCaseTwo",
+      "diagnostic": {
+        "exceptionMessage": "System.AssertException: Assertion Failed: Expected: false, Actual: true",
+        "exceptionStackTrace": "Class.SF_quoteTriggerTest.validateQuotePrimarityTestCaseTwo: line 108, column 1",
+        "className": "SF_quoteTriggerTest",
+        "compileProblem": "",
+        "lineNumber": 108,
+        "columnNumber": 1
+      }
+    }
+  ]
+}

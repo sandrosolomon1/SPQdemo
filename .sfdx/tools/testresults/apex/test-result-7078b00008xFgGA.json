@@ -1,0 +1,42 @@
+{
+  "summary": {
+    "outcome": "Passed",
+    "testsRan": 1,
+    "passing": 1,
+    "failing": 0,
+    "skipped": 0,
+    "passRate": "100%",
+    "failRate": "0%",
+    "skipRate": "0%",
+    "testStartTime": "Mon May 23 2022 10:33:54 PM",
+    "testExecutionTimeInMs": 2018,
+    "testTotalTimeInMs": 2018,
+    "commandTimeInMs": 592,
+    "hostname": "https://sweeftdigital9-dev-ed.my.salesforce.com",
+    "orgId": "00D8b000002AE61EAG",
+    "username": "sandroqoiava7@hotmail.com",
+    "testRunId": "7078b00008xFgGA",
+    "userId": "0058b00000GM5y9AAD"
+  },
+  "tests": [
+    {
+      "id": "07M8b000005w7HeEAI",
+      "queueItemId": "7098b000000W5ITAA0",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7078b00008xFgGAAA0",
+      "methodName": "testSF_createQuoteLineItems",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p8b000009KyxYAAS",
+        "name": "SF_quoteTriggerTest",
+        "namespacePrefix": null,
+        "fullName": "SF_quoteTriggerTest"
+      },
+      "runTime": 2018,
+      "testTimestamp": "2022-05-23T18:33:55.000+0000",
+      "fullName": "SF_quoteTriggerTest.testSF_createQuoteLineItems"
+    }
+  ]
+}

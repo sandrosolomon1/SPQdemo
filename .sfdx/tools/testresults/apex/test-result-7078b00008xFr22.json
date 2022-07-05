@@ -1,0 +1,50 @@
+{
+  "summary": {
+    "outcome": "Failed",
+    "testsRan": 1,
+    "passing": 0,
+    "failing": 1,
+    "skipped": 0,
+    "passRate": "0%",
+    "failRate": "100%",
+    "skipRate": "0%",
+    "testStartTime": "Mon May 23 2022 10:29:15 PM",
+    "testExecutionTimeInMs": 1061,
+    "testTotalTimeInMs": 1061,
+    "commandTimeInMs": 695,
+    "hostname": "https://sweeftdigital9-dev-ed.my.salesforce.com",
+    "orgId": "00D8b000002AE61EAG",
+    "username": "sandroqoiava7@hotmail.com",
+    "testRunId": "7078b00008xFr22",
+    "userId": "0058b00000GM5y9AAD"
+  },
+  "tests": [
+    {
+      "id": "07M8b000005w7HPEAY",
+      "queueItemId": "7098b000000W5IJAA0",
+      "stackTrace": "Class.SF_quoteTriggerTest.testSF_createQuoteLineItems: line 18, column 1",
+      "message": "System.DmlException: Insert failed. First exception on row 0; first error: FIELD_CUSTOM_VALIDATION_EXCEPTION, Account Field is required: []",
+      "asyncApexJobId": "7078b00008xFr22AAC",
+      "methodName": "testSF_createQuoteLineItems",
+      "outcome": "Fail",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p8b000009KyxYAAS",
+        "name": "SF_quoteTriggerTest",
+        "namespacePrefix": null,
+        "fullName": "SF_quoteTriggerTest"
+      },
+      "runTime": 1061,
+      "testTimestamp": "2022-05-23T18:29:16.000+0000",
+      "fullName": "SF_quoteTriggerTest.testSF_createQuoteLineItems",
+      "diagnostic": {
+        "exceptionMessage": "System.DmlException: Insert failed. First exception on row 0; first error: FIELD_CUSTOM_VALIDATION_EXCEPTION, Account Field is required: []",
+        "exceptionStackTrace": "Class.SF_quoteTriggerTest.testSF_createQuoteLineItems: line 18, column 1",
+        "className": "SF_quoteTriggerTest",
+        "compileProblem": "",
+        "lineNumber": 18,
+        "columnNumber": 1
+      }
+    }
+  ]
+}

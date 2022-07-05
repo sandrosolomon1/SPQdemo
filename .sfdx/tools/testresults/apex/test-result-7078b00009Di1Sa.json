@@ -1,0 +1,50 @@
+{
+  "summary": {
+    "outcome": "Failed",
+    "testsRan": 1,
+    "passing": 0,
+    "failing": 1,
+    "skipped": 0,
+    "passRate": "0%",
+    "failRate": "100%",
+    "skipRate": "0%",
+    "testStartTime": "Tue Jun 28 2022 10:45:54 PM",
+    "testExecutionTimeInMs": 67,
+    "testTotalTimeInMs": 67,
+    "commandTimeInMs": 918,
+    "hostname": "https://sweeftdigital9-dev-ed.my.salesforce.com",
+    "orgId": "00D8b000002AE61EAG",
+    "username": "sandroqoiava7@hotmail.com",
+    "testRunId": "7078b00009Di1Sa",
+    "userId": "0058b00000GM5y9AAD"
+  },
+  "tests": [
+    {
+      "id": "07M8b000004O7m3EAC",
+      "queueItemId": "7098b000000OlZqAAK",
+      "stackTrace": "Class.SF_PostInvoiceBatchTest.postInvoiceBatchTest: line 9, column 1",
+      "message": "System.DmlException: Insert failed. First exception on row 0; first error: REQUIRED_FIELD_MISSING, Required fields are missing: [Account__c]: [Account__c]",
+      "asyncApexJobId": "7078b00009Di1SaAAJ",
+      "methodName": "postInvoiceBatchTest",
+      "outcome": "Fail",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p8b000008ODTxAAO",
+        "name": "SF_PostInvoiceBatchTest",
+        "namespacePrefix": null,
+        "fullName": "SF_PostInvoiceBatchTest"
+      },
+      "runTime": 67,
+      "testTimestamp": "2022-06-28T18:45:57.000+0000",
+      "fullName": "SF_PostInvoiceBatchTest.postInvoiceBatchTest",
+      "diagnostic": {
+        "exceptionMessage": "System.DmlException: Insert failed. First exception on row 0; first error: REQUIRED_FIELD_MISSING, Required fields are missing: [Account__c]: [Account__c]",
+        "exceptionStackTrace": "Class.SF_PostInvoiceBatchTest.postInvoiceBatchTest: line 9, column 1",
+        "className": "SF_PostInvoiceBatchTest",
+        "compileProblem": "",
+        "lineNumber": 9,
+        "columnNumber": 1
+      }
+    }
+  ]
+}

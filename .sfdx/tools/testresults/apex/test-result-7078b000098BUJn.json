@@ -1,0 +1,77 @@
+{
+  "summary": {
+    "outcome": "Failed",
+    "testsRan": 2,
+    "passing": 0,
+    "failing": 2,
+    "skipped": 0,
+    "passRate": "0%",
+    "failRate": "100%",
+    "skipRate": "0%",
+    "testStartTime": "Wed Jun 15 2022 10:39:27 AM",
+    "testExecutionTimeInMs": 180,
+    "testTotalTimeInMs": 180,
+    "commandTimeInMs": 538,
+    "hostname": "https://sweeftdigital9-dev-ed.my.salesforce.com",
+    "orgId": "00D8b000002AE61EAG",
+    "username": "sandroqoiava7@hotmail.com",
+    "testRunId": "7078b000098BUJn",
+    "userId": "0058b00000GM5y9AAD"
+  },
+  "tests": [
+    {
+      "id": "07M8b000004NqfsEAC",
+      "queueItemId": "7098b000000Okh8AAC",
+      "stackTrace": "Class.SF_LightningHelperTest.cloneQuoteWithOutQlisTest: line 58, column 1",
+      "message": "System.AssertException: Assertion Failed: Cloning quote failed: Expected: null, Actual: a028b0000281pInAAI",
+      "asyncApexJobId": "7078b000098BUJnAAO",
+      "methodName": "cloneQuoteWithOutQlisTest",
+      "outcome": "Fail",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p8b000008Nki3AAC",
+        "name": "SF_LightningHelperTest",
+        "namespacePrefix": null,
+        "fullName": "SF_LightningHelperTest"
+      },
+      "runTime": 101,
+      "testTimestamp": "2022-06-15T06:39:30.000+0000",
+      "fullName": "SF_LightningHelperTest.cloneQuoteWithOutQlisTest",
+      "diagnostic": {
+        "exceptionMessage": "System.AssertException: Assertion Failed: Cloning quote failed: Expected: null, Actual: a028b0000281pInAAI",
+        "exceptionStackTrace": "Class.SF_LightningHelperTest.cloneQuoteWithOutQlisTest: line 58, column 1",
+        "className": "SF_LightningHelperTest",
+        "compileProblem": "",
+        "lineNumber": 58,
+        "columnNumber": 1
+      }
+    },
+    {
+      "id": "07M8b000004NqftEAC",
+      "queueItemId": "7098b000000Okh8AAC",
+      "stackTrace": "Class.SF_LightningHelperTest.cloneQuoteWithtQlisTest: line 65, column 1",
+      "message": "System.QueryException: List has no rows for assignment to SObject",
+      "asyncApexJobId": "7078b000098BUJnAAO",
+      "methodName": "cloneQuoteWithtQlisTest",
+      "outcome": "Fail",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p8b000008Nki3AAC",
+        "name": "SF_LightningHelperTest",
+        "namespacePrefix": null,
+        "fullName": "SF_LightningHelperTest"
+      },
+      "runTime": 79,
+      "testTimestamp": "2022-06-15T06:39:30.000+0000",
+      "fullName": "SF_LightningHelperTest.cloneQuoteWithtQlisTest",
+      "diagnostic": {
+        "exceptionMessage": "System.QueryException: List has no rows for assignment to SObject",
+        "exceptionStackTrace": "Class.SF_LightningHelperTest.cloneQuoteWithtQlisTest: line 65, column 1",
+        "className": "SF_LightningHelperTest",
+        "compileProblem": "",
+        "lineNumber": 65,
+        "columnNumber": 1
+      }
+    }
+  ]
+}

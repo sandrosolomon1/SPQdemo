@@ -1,0 +1,50 @@
+{
+  "summary": {
+    "outcome": "Failed",
+    "testsRan": 1,
+    "passing": 0,
+    "failing": 1,
+    "skipped": 0,
+    "passRate": "0%",
+    "failRate": "100%",
+    "skipRate": "0%",
+    "testStartTime": "Wed Jun 22 2022 5:27:51 PM",
+    "testExecutionTimeInMs": 3408,
+    "testTotalTimeInMs": 3408,
+    "commandTimeInMs": 799,
+    "hostname": "https://sweeftdigital9-dev-ed.my.salesforce.com",
+    "orgId": "00D8b000002AE61EAG",
+    "username": "sandroqoiava7@hotmail.com",
+    "testRunId": "7078b00009AvthA",
+    "userId": "0058b00000GM5y9AAD"
+  },
+  "tests": [
+    {
+      "id": "07M8b000004Nz6wEAC",
+      "queueItemId": "7098b000000OlBcAAK",
+      "stackTrace": "Class.SF_CreateInvoiceBatchTest.createInvoiceTest: line 46, column 1",
+      "message": "System.AssertException: Assertion Failed: CreateInvoice Apex Job Failed: Expected: Failed, Actual: Completed",
+      "asyncApexJobId": "7078b00009AvthAAAR",
+      "methodName": "createInvoiceTest",
+      "outcome": "Fail",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p8b000008O5YdAAK",
+        "name": "SF_CreateInvoiceBatchTest",
+        "namespacePrefix": null,
+        "fullName": "SF_CreateInvoiceBatchTest"
+      },
+      "runTime": 3408,
+      "testTimestamp": "2022-06-22T13:27:52.000+0000",
+      "fullName": "SF_CreateInvoiceBatchTest.createInvoiceTest",
+      "diagnostic": {
+        "exceptionMessage": "System.AssertException: Assertion Failed: CreateInvoice Apex Job Failed: Expected: Failed, Actual: Completed",
+        "exceptionStackTrace": "Class.SF_CreateInvoiceBatchTest.createInvoiceTest: line 46, column 1",
+        "className": "SF_CreateInvoiceBatchTest",
+        "compileProblem": "",
+        "lineNumber": 46,
+        "columnNumber": 1
+      }
+    }
+  ]
+}

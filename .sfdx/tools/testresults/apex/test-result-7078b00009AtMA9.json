@@ -1,0 +1,42 @@
+{
+  "summary": {
+    "outcome": "Passed",
+    "testsRan": 1,
+    "passing": 1,
+    "failing": 0,
+    "skipped": 0,
+    "passRate": "100%",
+    "failRate": "0%",
+    "skipRate": "0%",
+    "testStartTime": "Tue Jun 21 2022 3:12:12 PM",
+    "testExecutionTimeInMs": 472,
+    "testTotalTimeInMs": 472,
+    "commandTimeInMs": 535,
+    "hostname": "https://sweeftdigital9-dev-ed.my.salesforce.com",
+    "orgId": "00D8b000002AE61EAG",
+    "username": "sandroqoiava7@hotmail.com",
+    "testRunId": "7078b00009AtMA9",
+    "userId": "0058b00000GM5y9AAD"
+  },
+  "tests": [
+    {
+      "id": "07M8b000004NxH9EAK",
+      "queueItemId": "7098b000000Ol7zAAC",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7078b00009AtMA9AAN",
+      "methodName": "validateQuotePrimarityTestCaseOne",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p8b000004iaQsAAI",
+        "name": "SF_quoteTriggerTest",
+        "namespacePrefix": null,
+        "fullName": "SF_quoteTriggerTest"
+      },
+      "runTime": 472,
+      "testTimestamp": "2022-06-21T11:12:14.000+0000",
+      "fullName": "SF_quoteTriggerTest.validateQuotePrimarityTestCaseOne"
+    }
+  ]
+}

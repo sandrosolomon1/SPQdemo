@@ -1,0 +1,50 @@
+{
+  "summary": {
+    "outcome": "Failed",
+    "testsRan": 1,
+    "passing": 0,
+    "failing": 1,
+    "skipped": 0,
+    "passRate": "0%",
+    "failRate": "100%",
+    "skipRate": "0%",
+    "testStartTime": "Mon May 30 2022 3:25:55 PM",
+    "testExecutionTimeInMs": 1431,
+    "testTotalTimeInMs": 1431,
+    "commandTimeInMs": 525,
+    "hostname": "https://sweeftdigital9-dev-ed.my.salesforce.com",
+    "orgId": "00D8b000002AE61EAG",
+    "username": "sandroqoiava7@hotmail.com",
+    "testRunId": "7078b0000906vbr",
+    "userId": "0058b00000GM5y9AAD"
+  },
+  "tests": [
+    {
+      "id": "07M8b0000047DSBEA2",
+      "queueItemId": "7098b0000003rfVAAQ",
+      "stackTrace": "Class.SF_quoteTriggerTest.testSF_createQuoteLineItems: line 51, column 1",
+      "message": "System.QueryException: List has no rows for assignment to SObject",
+      "asyncApexJobId": "7078b0000906vbrAAA",
+      "methodName": "testSF_createQuoteLineItems",
+      "outcome": "Fail",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p8b000009KyxYAAS",
+        "name": "SF_quoteTriggerTest",
+        "namespacePrefix": null,
+        "fullName": "SF_quoteTriggerTest"
+      },
+      "runTime": 1431,
+      "testTimestamp": "2022-05-30T11:25:57.000+0000",
+      "fullName": "SF_quoteTriggerTest.testSF_createQuoteLineItems",
+      "diagnostic": {
+        "exceptionMessage": "System.QueryException: List has no rows for assignment to SObject",
+        "exceptionStackTrace": "Class.SF_quoteTriggerTest.testSF_createQuoteLineItems: line 51, column 1",
+        "className": "SF_quoteTriggerTest",
+        "compileProblem": "",
+        "lineNumber": 51,
+        "columnNumber": 1
+      }
+    }
+  ]
+}

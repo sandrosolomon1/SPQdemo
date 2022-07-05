@@ -1,0 +1,50 @@
+{
+  "summary": {
+    "outcome": "Failed",
+    "testsRan": 1,
+    "passing": 0,
+    "failing": 1,
+    "skipped": 0,
+    "passRate": "0%",
+    "failRate": "100%",
+    "skipRate": "0%",
+    "testStartTime": "Tue Jun 21 2022 3:10:50 PM",
+    "testExecutionTimeInMs": 1878,
+    "testTotalTimeInMs": 1878,
+    "commandTimeInMs": 692,
+    "hostname": "https://sweeftdigital9-dev-ed.my.salesforce.com",
+    "orgId": "00D8b000002AE61EAG",
+    "username": "sandroqoiava7@hotmail.com",
+    "testRunId": "7078b00009AtLA0",
+    "userId": "0058b00000GM5y9AAD"
+  },
+  "tests": [
+    {
+      "id": "07M8b000004NxH4EAK",
+      "queueItemId": "7098b000000Ol7uAAC",
+      "stackTrace": "Class.SF_CreateOrderAndOrderProductsTest.executeTest: line 54, column 1",
+      "message": "System.DmlException: Insert failed. First exception on row 0; first error: CANNOT_INSERT_UPDATE_ACTIVATE_ENTITY, SF_quoteLineItemTrigger: execution of BeforeInsert\n\ncaused by: System.NullPointerException: Attempt to de-reference a null object\n\nClass.SF_quoteLineItemTriggerHelper.setValues: line 33, column 1\nTrigger.SF_quoteLineItemTrigger: line 3, column 1: []",
+      "asyncApexJobId": "7078b00009AtLA0AAN",
+      "methodName": "executeTest",
+      "outcome": "Fail",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p8b000008O5TOAA0",
+        "name": "SF_CreateOrderAndOrderProductsTest",
+        "namespacePrefix": null,
+        "fullName": "SF_CreateOrderAndOrderProductsTest"
+      },
+      "runTime": 1878,
+      "testTimestamp": "2022-06-21T11:10:50.000+0000",
+      "fullName": "SF_CreateOrderAndOrderProductsTest.executeTest",
+      "diagnostic": {
+        "exceptionMessage": "System.DmlException: Insert failed. First exception on row 0; first error: CANNOT_INSERT_UPDATE_ACTIVATE_ENTITY, SF_quoteLineItemTrigger: execution of BeforeInsert\n\ncaused by: System.NullPointerException: Attempt to de-reference a null object\n\nClass.SF_quoteLineItemTriggerHelper.setValues: line 33, column 1\nTrigger.SF_quoteLineItemTrigger: line 3, column 1: []",
+        "exceptionStackTrace": "Class.SF_CreateOrderAndOrderProductsTest.executeTest: line 54, column 1",
+        "className": "SF_CreateOrderAndOrderProductsTest",
+        "compileProblem": "",
+        "lineNumber": 54,
+        "columnNumber": 1
+      }
+    }
+  ]
+}

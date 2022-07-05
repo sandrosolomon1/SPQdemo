@@ -1,0 +1,50 @@
+{
+  "summary": {
+    "outcome": "Failed",
+    "testsRan": 1,
+    "passing": 0,
+    "failing": 1,
+    "skipped": 0,
+    "passRate": "0%",
+    "failRate": "100%",
+    "skipRate": "0%",
+    "testStartTime": "Tue Jun 21 2022 3:34:40 PM",
+    "testExecutionTimeInMs": 1819,
+    "testTotalTimeInMs": 1819,
+    "commandTimeInMs": 516,
+    "hostname": "https://sweeftdigital9-dev-ed.my.salesforce.com",
+    "orgId": "00D8b000002AE61EAG",
+    "username": "sandroqoiava7@hotmail.com",
+    "testRunId": "7078b00009AtO08",
+    "userId": "0058b00000GM5y9AAD"
+  },
+  "tests": [
+    {
+      "id": "07M8b000004NxHiEAK",
+      "queueItemId": "7098b000000Ol8YAAS",
+      "stackTrace": "Class.SF_CreateOrderAndOrderProductsTest.executeTest: line 72, column 1",
+      "message": "System.DmlException: Update failed. First exception on row 0 with id a028b00002828uuAAA; first error: FIELD_CUSTOM_VALIDATION_EXCEPTION, You can not change status to Accepted without required fields Account, Contact, Opportunity or Expiration Date not earlier than tommorow: []",
+      "asyncApexJobId": "7078b00009AtO08AAF",
+      "methodName": "executeTest",
+      "outcome": "Fail",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p8b000008O5TOAA0",
+        "name": "SF_CreateOrderAndOrderProductsTest",
+        "namespacePrefix": null,
+        "fullName": "SF_CreateOrderAndOrderProductsTest"
+      },
+      "runTime": 1819,
+      "testTimestamp": "2022-06-21T11:34:41.000+0000",
+      "fullName": "SF_CreateOrderAndOrderProductsTest.executeTest",
+      "diagnostic": {
+        "exceptionMessage": "System.DmlException: Update failed. First exception on row 0 with id a028b00002828uuAAA; first error: FIELD_CUSTOM_VALIDATION_EXCEPTION, You can not change status to Accepted without required fields Account, Contact, Opportunity or Expiration Date not earlier than tommorow: []",
+        "exceptionStackTrace": "Class.SF_CreateOrderAndOrderProductsTest.executeTest: line 72, column 1",
+        "className": "SF_CreateOrderAndOrderProductsTest",
+        "compileProblem": "",
+        "lineNumber": 72,
+        "columnNumber": 1
+      }
+    }
+  ]
+}
